@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+   <h1 style="text-align: center">Movies App</h1>
+   <div class="page">
+   <div>
+    <button onclick="Mrequest2()">Sort By Dsc</button>
+    <button onclick="Mrequest1()">Sort By Asc</button>
+    <button onclick="Mrequest()">MoviesAll</button>
+   </div>
+   
+   <form onsubmit="Mrequest6(event)">
+    <input type="text" id="query" name="query">
+    <button type="submit">Search</button>
+  </form>
+</div>
+   <div style="margin-top: 1%;"></div>
+   <div id="data" class="videowidth">
+   </div>
+
+   <div class="pegination">
+   <button onclick="decrementCounter()">Prev</button>
+   <button onclick="incrementCounter()">Next</button>
+   </div>
+</body>
+</html>
+<script src="script.js">
+</script>

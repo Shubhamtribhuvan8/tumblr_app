@@ -1,0 +1,38 @@
+.videowidth {
+    /* width: 30%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+
+}
+
+.videowidth div {
+    width: 23%;
+    font-weight: bold;
+}
+
+.videowidth img {
+    border-radius: 12px;
+
+}
+
+img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    /* height: 100%; */
+}
+.page{
+    /* text-align: center; */
+    /* position: fixed; */
+    gap: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pegination{
+    position: sticky;
+    bottom: auto;
+}

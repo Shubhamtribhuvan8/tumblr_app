@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+header{
+  background-color: black !important;
+  position: fixed !important;
+  z-index: 1;
+}
+@media (min-width: 900px){
+.css-1kcggdq-MuiInputBase-root .MuiInputBase-input {
+    width: 48ch !important;
+  }
+}
+
+.css-uym98a-MuiImageList-root {
+   position: fixed !important; 
+  /* overflow-y:visible !important; */
+  /* overflow-y: none !important; */
+  overscroll-behavior-y: none !important;
+  z-index: 1;
+}
+
+.css-18jlt70-MuiImageList-root{
+  display:grid;
+  /* overflow-y:none !important; */
+  list-style:none;
+  padding:0;-webkit-overflow-scrolling:touch;
+  width:533px;
+  height:450px;
+  margin-top:16px;
+}
+
+body{
+  overflow: visible !important;
+  padding-right: 0 !important;
+}
